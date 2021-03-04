@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Black jack</title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row nav-part">
+                <div class="status-game">
+                    <h2><span id="blackjack-result">Let's Play</span></h2>
+                </div>
+            </div>
+            <div class="row main-part">
+                <div class="col your-score-div" id="your-score-div">
+                    <h2>You: <span id="your-score">0</span></h2>
+                    <!-- cards here -->
+                </div>
+                <div class="col dealer-score-div" id="dealer-score-div">
+                    <h2>Dealer: <span id="dealer-score">0</span></h2>
+                    <!-- cards here -->
+                </div>
+            </div>
+            <div class="row bottom-part">
+                <div class="button-box">
+                    <button class="btn btn-primary" id="hit-button">HIT</button>
+                    <button class="btn btn-warning" id="stand-button">Stand</button>
+                    <button class="btn btn-danger" id="deal-button">Deal</button>
+                </div>
+            </div>
+            <div class="row score-part">
+                <div>
+                    <table class="score-table">
+                        <thead>
+                            <tr>
+                                <td>Wins</td>
+                                <td>Losses</td>
+                                <td>Draws</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span id="wins">0</span></td>
+                                <td><span id="losses">0</span></td>
+                                <td><span id="draws">0</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

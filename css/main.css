@@ -1,0 +1,52 @@
+.your-score-div,
+.dealer-score-div {
+  border: solid;
+  border-color: black;
+  border-width: thin;
+  max-width: 800px;
+}
+.your-score-div img,
+.dealer-score-div img {
+  max-height: 100px;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+.bottom-part,
+.main-part,
+.nav-part,
+.score-part {
+  background-color: darkgreen;
+  border: solid;
+  border-color: rgb(63, 63, 63);
+  border-width: thin;
+  text-align: center;
+  color: aliceblue;
+  height: 100px;
+}
+.main-part {
+  height: 400px;
+}
+.bottom-part {
+  height: 50px;
+}
+.nav-part {
+  height: 50px;
+}
+.score-part {
+  background: rgb(255, 255, 255) !important;
+  height: 80px;
+  align-content: center;
+}
+.score-table {
+  text-align: center;
+  color: black;
+  border-color: black;
+  font-weight: normal !important;
+  align-content: center;
+  margin: auto;
+}
+td {
+  border: solid;
+  border-color: rgb(63, 63, 63);
+  border-width: thin;
+}
